@@ -20,6 +20,11 @@ main{
    gap: 1rem ; 
 }
 
+img{
+    border-radius:50%;
+    height:35px;
+    width:35px;
+}
 .card1{
    grid-column: 1/3;
    background-color: hsl(263, 55%, 52%);
@@ -30,8 +35,8 @@ main{
    background-position: right 100px top ;
 }
 
-.card1{
-
+.card1 img{
+  border:2px solid hsla(263, 76%, 75%, 0.817);
 }
 
 .card2{
@@ -44,7 +49,9 @@ main{
     grid-row: 1/3;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
+    font-family: "Barlow Semi Condensed", sans-serif;
 }
+
 
 .card4{
     background-color: hsl(0, 0%, 100%);
@@ -57,3 +64,8 @@ main{
     background-color: hsl(219, 29%, 14%);
     border-radius: 10px;
 }
+
+.card5 img{
+    border:2px solid hsla(263, 76%, 75%, 0.817);
+  }
+  
