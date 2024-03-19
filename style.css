@@ -6,7 +6,7 @@
 
 body{
     background-color: hsl(210, 46%, 95%);
-    /* height:100vh; */
+    height:100vh;
     /* width:100vw; */
     display:flex;
     justify-content: center;
@@ -63,9 +63,44 @@ img{
     grid-column-end: 4;
     background-color: hsl(219, 29%, 14%);
     border-radius: 10px;
+    color:hsl(0, 0%, 100%);
+    padding:20px;
+    font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .card5 img{
     border:2px solid hsla(263, 76%, 75%, 0.817);
   }
-  
+
+.card5 p{
+    font-size: 13px;
+    color:hsl(218, 16%, 70%);
+    padding:10px;
+}
+
+.card5 h1{
+    padding:10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card5 span:first-child{
+    color:hsl(0, 0%, 100%);
+    padding-bottom:2px;
+    font-size: 16px;
+}
+
+.card5 span:last-child{
+    color:hsl(218, 16%, 70%);
+    font-size: 13px;
+}
+.author{
+    display:flex;
+    flex-direction: column;
+}
+
+.authbox{
+    display:flex;
+    gap:1rem;
+    align-items: center;
+}
