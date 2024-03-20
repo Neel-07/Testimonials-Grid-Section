@@ -15,6 +15,7 @@ body{
 }
 
 main{
+   max-width: 80%;
    display:grid;
    grid-template-columns:repeat(4,1fr);
    gap: 1rem ; 
@@ -67,7 +68,33 @@ img{
 .card2{
     background-color: hsl(217, 19%, 35%);
     border-radius: 10px;
+    color:hsl(0, 0%, 100%);
+    padding:20px;
+    font-family: "Barlow Semi Condensed", sans-serif;
 }
+
+.card2 p{
+    font-size: 13px;
+    color:hsl(218, 16%, 70%);
+    padding:10px;
+}
+
+.card2 h1{
+    padding:10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card2 span:first-child{
+    color:hsl(0, 0%, 100%);
+    padding-bottom:2px;
+    font-size: 16px;
+}
+
+.card2 span:last-child{
+    color:hsl(218, 16%, 70%);
+}
+
 
 .card3{
     grid-column: 4/5;
