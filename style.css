@@ -33,11 +33,36 @@ img{
    background-image: url('./images/bg-pattern-quotation.svg');
    background-repeat: no-repeat;
    background-position: right 100px top ;
+   color:hsl(0, 0%, 100%);
+   padding:20px;
+   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .card1 img{
   border:2px solid hsla(263, 76%, 75%, 0.817);
 }
+
+.card1 p{
+    font-size: 13px;
+    color:hsl(218, 16%, 70%);
+    padding:10px;
+}
+
+.card1 h1{
+    padding:10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card1 span:first-child{
+    color:hsl(0, 0%, 100%);
+    padding-bottom:2px;
+    font-size: 16px;
+}
+
+.card1 span:last-child{
+    color:hsl(218, 16%, 70%);
+}  
 
 .card2{
     background-color: hsl(217, 19%, 35%);
