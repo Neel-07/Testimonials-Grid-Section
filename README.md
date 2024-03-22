@@ -18,7 +18,7 @@ For the Testimonials Grid section project, my main objective was to craft a visu
   
 ### Screenshot
 
-![](./four-card-feature-section-master/design/desktop-design.jpg)
+![](./design/desktop-design.jpg)
 
 ### Links
 - Live Site URL: [Click here](https://neel-07.github.io/Product-preview-card-component/)
